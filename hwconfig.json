@@ -1,0 +1,65 @@
+{
+  "window": {
+    "mode": "fullscreen",
+    "geometry": "1280x720+100+100",
+    "monitor": {
+      "select": "right",
+      "index": 3,
+      "index_base": 1,
+      "safe_margins": { "l": 0, "t": 0, "r": 0, "b": 0 }
+    }
+  },
+  "theme": {
+    "bg": "#0b0e13",
+    "fg": "#e5eef9",
+    "sub": "#9fb0c6",
+    "grid": "#16202f",
+    "track": "#151922",
+    "font_family": "Consolas",
+    "ui_scale": 1
+  },
+  "fonts": {
+    "clock_pt": 35,
+    "bar_label_pt": 13,
+    "ring_value_scale": 0.28,
+    "ring_label_scale": 0.05
+  },
+  "poll": {
+    "interval_sec": 1.0,
+    "history_seconds": 300
+  },
+  "layout": {
+    "outer_padding_px": 10,
+    "inner_gap_px": 5,
+    "graph_height_px": 80
+  },
+  "rings": {
+    "cpu":  { "vmax": 100, "label_offset": 1.1 },
+    "mobo": { "vmax": 95,  "label_offset": 1.1 },
+    "gpu":  { "vmax": 110, "label_offset": 1.1 }
+  },
+  "graphs": {
+    "cpu":  { "max_value": 110 },
+    "mobo": { "max_value": 100 },
+    "gpu":  { "max_value": 115 }
+  },
+  "bars": {
+    "height": 60,
+    "labels": {
+      "cpu": "CPU Usage",
+      "ram": "RAM Usage",
+      "gpu": "GPU Usage"
+    }
+  },
+  "labels": {
+    "override": {
+      "cpu": null,
+      "mobo": null,
+      "gpu": null
+    }
+  },
+  "hotkeys": {
+    "fullscreen_toggle": "F11",
+    "rescan_hwinfo": "R"
+  }
+}
