@@ -1,0 +1,90 @@
+{
+  "window": {
+    "mode": "fullscreen",
+    "geometry": "1280x720+100+100",
+    "monitor": {
+      "select": "bottom",
+      "index": 1,
+      "index_base": 1,
+      "safe_margins": {
+        "l": 0,
+        "t": 0,
+        "r": 0,
+        "b": 0
+      }
+    }
+  },
+  "theme": {
+    "bg": "#0b0e13",
+    "fg": "#e5eef9",
+    "sub": "#9fb0c6",
+    "hot": "#ff5a4f",
+    "hot_ratio": 0.85,
+    "font_family": "Consolas",
+    "display_font": "Bahnschrift",
+    "ui_scale": 1.0
+  },
+  "fonts": {
+    "clock_pt": 35
+  },
+  "poll": {
+    "interval_sec": 1.0,
+    "history_seconds": 300
+  },
+  "layout": {
+    "outer_padding_px": 10,
+    "inner_gap_px": 5
+  },
+  "rings": {
+    "cpu": {
+      "vmax": 100
+    },
+    "mobo": {
+      "vmax": 95
+    },
+    "gpu": {
+      "vmax": 110
+    }
+  },
+  "graphs": {
+    "mobo": {
+      "max_value": 100
+    }
+  },
+  "fans": {
+    "max_rpm": 2000,
+    "pump_max_rpm": 3500
+  },
+  "labels": {
+    "override": {
+      "cpu": null,
+      "mobo": null,
+      "gpu": null
+    }
+  },
+  "hotkeys": {
+    "fullscreen_toggle": "F11",
+    "rescan_hwinfo": "R"
+  },
+  "hwinfo": {
+    "warn_hours": 11.5
+  },
+  "sensor_mapping": {
+    "cpu": {
+      "sensor_index": 2,
+      "entry_id": 16777726,
+      "label": "Package CPU"
+    },
+    "mobo": {
+      "sensor_index": 7,
+      "entry_id": 16777217,
+      "label": "Sistema"
+    },
+    "gpu": {
+      "sensor_index": 19,
+      "entry_id": 16777216,
+      "label": "Temperatura GPU"
+    }
+  },
+  "fan_mapping": {}
+}
